@@ -13,6 +13,7 @@ for (const button of buttons) {
         } else if (e.target.dataset.key == 'clear') {
             screen.textContent = ''
         } else {
+            console.log(e.target.dataset.key)
             screen.textContent = screen.textContent + e.target.dataset.key
         }
     })
